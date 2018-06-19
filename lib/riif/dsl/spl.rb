@@ -6,7 +6,6 @@ module Riif::DSL
       :date,
       :accnt,
       :name,
-      :class,
       :amount,
       :docnum,
       :memo,
@@ -14,10 +13,13 @@ module Riif::DSL
       :qnty,
       :price,
       :invitem,
-      :paymeth,
       :taxable,
+      :other2,
+      :other3,
+      :servicedate,
       :reimbexp,
-      :extra
+      :extra,
+      :class
     ]
     START_COLUMN = 'SPL'
     END_COLUMN = ''
