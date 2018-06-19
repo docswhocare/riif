@@ -17,8 +17,6 @@ module Riif::DSL
       :other2,
       :other3,
       :servicedate,
-      :reimbexp,
-      :extra,
       :class
     ]
     START_COLUMN = 'SPL'
